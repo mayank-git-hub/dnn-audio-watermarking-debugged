@@ -15,4 +15,4 @@ HOP_LENGTH = 511
 STEP_SIZE = 32768 - HOP_LENGTH
 WINDOW_LENGTH = 1023
 POOL_SIZE = 6
-MESSAGE_POOL = np.load("dataset/message_pool.npy")
+MESSAGE_POOL = np.load("samples/message_pool.npy")
