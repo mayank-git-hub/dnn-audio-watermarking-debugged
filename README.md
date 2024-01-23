@@ -1,3 +1,12 @@
+# I have solved the bugs present in the code to make it runnable.
+
+A working encoder-decoder code is available in run.ipynb
+I have made some assumptions in the code.
+
+1. Repeated the message to match it to the required shape as specified in the config file.
+2. used euclidean distance to find closest message from the Pool
+   
+
 # DNN-audio-watermarking
 We implemented a robust DNN-based audio watermarking system. It contains two neural networks. One for embedding the watermark (Embedder), and the other for detecting watermarks in watermarked audio signals (Detector).\
 The system has been trained against following watermarking attacks:
