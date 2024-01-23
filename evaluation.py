@@ -5,7 +5,8 @@ from pypesq import pesq
 import librosa
 from utils import snr
 from utils import generator
-from tensorflow import keras
+# from tensorflow import keras
+from keras.models import load_model  # For keras==2.9.0 and tf==2.9.1
 
 def reconstruct_from_stft(example):
   stft = tf.complex(example[:,:,0], example[:,:,1])
